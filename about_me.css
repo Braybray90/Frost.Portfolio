@@ -1,0 +1,530 @@
+html:root{
+    font-size:1em + 1vw;
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+html{
+    box-sizing:border-box;
+    font-family:monospace;
+    min-width:100vh;
+
+}
+
+
+.body{  
+    width:100vw;
+    height:auto;
+    overflow:hidden;
+    background-color:rgb(15, 15, 15);
+    animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.maintitle{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    background-color: #ffffff6e;
+    color:black;
+    padding:.5em .9em .5em .9em;
+    border-style:ridge;
+    border-radius: 10px;
+    border-color: #436375;  
+    position: absolute;
+    top:3%; 
+    left:1%;
+    box-shadow: 0px 0px 10px 0px rgb(63, 63, 63);;
+}
+.selfportrait
+
+{   margin:0px;
+    width:15vh;
+    height:auto;
+    position: absolute;
+    left:75%;
+    top:2%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#8acbee ;
+    z-index: 1;
+}
+.progress{
+    color: rgb(184, 184, 184);
+    text-align: center;
+    width:15vw;
+    height:auto;
+    z-index: 10;
+    float:right;
+    position:absolute;
+    top:14%;
+    right:1.5%;
+    font-size: 1.3rem;
+    letter-spacing: .2em;
+    line-height: 33px;
+    border-radius: px;
+}
+.progress_heading, .legend_heading{
+    color:whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing:2px;
+    padding:3px;
+}
+.legend_heading{
+   
+    border-width:1px;
+    background-color: #1d2b336e;
+    border-style: solid;
+    border-color:#446475;
+    padding:.2em;
+    background: linear-gradient(0deg, #111a1f00, #2c414d);
+}
+ul li::marker {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+  }
+ul, li{
+    list-style-position: inside;
+   
+}
+.about_me{
+    width:67vw;
+    max-width: 1140px;
+    height:86vh;
+    background: linear-gradient(0deg, #111a1f, #2c414d);
+    color: whitesmoke;
+    position:absolute;
+    left:15%;
+    top:5.5%;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding:5px 15px 5px 15px;
+    margin:0px;
+    border-radius: 10px;
+    letter-spacing: .2em;
+    overflow:auto;
+    overflow-x:hidden;
+
+    scroll-behavior: smooth;
+   
+}
+.about_me a{
+    text-decoration: none;
+    color:#8acbee
+}
+.about_me a:hover{
+    font-weight: 800;
+    color: white;
+}
+.p1{
+    padding:.1em;
+}
+
+
+.nav_container{
+    border-left: solid ;
+    border-bottom: solid;
+     border-color:black;
+     border-width: 1px;
+     padding:3em 1em 8em 1em;
+     margin:0px 0px 0px .5%; 
+     position: absolute;
+     top:26%;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     border-radius:10px;
+     background-color:  #ffffff6e;
+     width:13vw;
+     height:47vh;
+     
+    }
+    
+     .nav2{  
+        font-size:1.5rem;
+        color:black;
+        text-decoration: none;
+        letter-spacing: 1.9px;
+       
+       
+
+}
+.nav2:hover{
+
+text-shadow:  #000000 0px 1px 15px;
+color:#65a1be;
+cursor:pointer;}
+
+.navicon{
+    background-color:white;
+    border-radius: 50%;
+    width:1em; 
+}
+
+.aper1{
+    width:5vh;
+    height:auto;
+    position: absolute;
+    top:65%;
+    left:2%;
+    z-index: 1;
+}
+.aper1:hover{
+    transform: rotate(180deg);
+    transition-duration:3s;}
+
+    .footer_container{
+        border-radius:10px;
+        margin:0px;
+        padding:0px;
+        width:99vw;
+        height:3vh;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:nowrap;
+        align-items: baseline;
+        position:absolute;  
+        bottom:0%;
+        right:.60%;
+            }
+        
+    
+            .social_links_container{
+                padding:0px 0px 0px 0px;
+                width:30vw;
+                color:white;
+                font-size: 1.2rem;
+                letter-spacing: .2em;;
+                position:absolute;
+                right:3%;  
+                bottom:40%;  
+                   }
+       
+       
+        
+    .footer_logo{
+            text-transform:uppercase;
+            font-size: 1.1rem;
+            letter-spacing: .2em;
+            position: absolute;
+            left:10%;
+            bottom:37%;
+            padding:5px;
+            color:white;
+        } 
+    .footer_links{
+          
+            text-decoration: none;
+            letter-spacing:1.9px;
+            color:#6698b3;}
+    
+    .icon{
+           width:2rem;
+            height:auto;
+            padding:4px;
+            
+        }
+        .icon500{
+            width:2.9rem;
+            height:auto;
+            padding:3px;
+        }
+    
+         
+    .p1{
+        color:rgb(172, 172, 172);
+    }
+
+@media (max-width:1150px) and (min-width:951px){
+    
+        :root{
+            font-size:1em + 1vw;
+        }
+     
+            .aper1{
+                width:5vh;
+                position:absolute;
+                top:65%;
+            }
+      
+    }
+@media (max-width:950px) and (min-width:851px){
+    :root{
+        font-size:.9em + 1vw;} 
+    
+    .aper1, .legend_heading, .progress, .progress_heading, .fieldset{
+      
+       display:none;
+    }  
+    .social_links_container, .maintitle, .form_title{
+        font-size: 0px;
+    }
+   
+    .selfportrait{ 
+    margin:0px;
+    width:10%;
+    height:auto;
+    position: absolute;
+    left:75%;
+    top:8%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#8acbee ;
+    z-index: 1;
+}
+
+    .about_me{
+        width:65%;
+        height:74%;
+        background: linear-gradient(0deg, #111a1f, #2c414d);
+        color: whitesmoke;
+        position:absolute;
+        left:15%;
+        top:15%;
+        line-height: 33px;
+        font-weight: 300;
+        font-size: 1.1rem;
+        padding:5px 15px 5px 15px;
+        border-radius: 10px;
+        letter-spacing: .2em;
+        overflow:scroll;     
+        overflow-x: hidden;
+        
+    }
+    .nav_container{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: absolute;
+        top:1%;
+        left:0%;
+        width:100%;
+        height:1em;
+        padding:2em;
+        border-color:black;
+    }     
+    .nav2{  
+        font-size:1.4rem;
+    }
+                     
+    .footer_container  {
+        position:absolute;
+        display: flex;
+        bottom:-1%;
+        right:.60%;
+        width:99%;
+        height:7%;
+    }      
+    }
+    
+@media (max-width:950px) and (min-width:649px){
+        :root{
+            font-size:.9em + 1vw;}   
+    
+    .aper1, .legend_heading, .progress, .progress_heading, .fieldset{
+      
+        display:none;
+     }  
+    .social_links_container, .maintitle, .form_title{
+        font-size: 0px;
+     }
+   
+    .selfportrait{  
+        margin:0px;
+        width:10%;
+        height:auto;
+        position: absolute;
+        left:75%;
+        top:10%;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 1px;
+        border-color:#8acbee ;
+        z-index: 1;
+}
+
+    .about_me{
+        width:90%;
+        height:74%;
+        background: linear-gradient(0deg, #111a1f, #2c414d);
+        color: whitesmoke;
+        position:absolute;
+        left:4.5%;
+        top:10%;
+        line-height: 33px;
+        font-weight: 300;
+        font-size: 1.1rem;
+        padding:5px 15px 5px 15px;
+        border-radius: 10px;
+        letter-spacing: .2em;
+        overflow:scroll;     
+        overflow-x: hidden;
+    }
+    .nav_container{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: absolute;
+        top:1%;
+        left:0%;
+        width:100%;
+        height:1em;
+        padding:2em;
+        border-color:black;
+                            }     
+                        .nav2{  
+                                font-size:1.4rem;}
+                     
+    .footer_container  {
+        position:absolute;
+        display: flex;
+        bottom:-1%;
+        right:.60%;
+        width:99%;
+        height:7%;
+    }      
+ 
+    }
+                    
+@media (max-width:650px) and (min-width:415px){
+    html:root{
+        font-size:.6em + 1vw;}
+    .aper1, .legend_heading, .progress, .progress_heading, .fieldset{
+        display:none;
+         }  
+    .social_links_container, .maintitle, .form_title{
+             font-size: 0px;
+         }
+   
+    .selfportrait{      
+        margin:0px;
+        width:10%;
+        height:auto;
+        position: absolute;
+        left:75%;
+        top:13%;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 1px;
+        border-color:#8acbee ;
+        z-index: 1;
+}
+  
+    .about_me{
+        width:90%;
+        height:75%;
+        background: linear-gradient(0deg, #111a1f, #2c414d);
+        color: whitesmoke;
+        position:absolute;
+        left:4.5%;
+        top:16%;
+        line-height: 33px;
+        font-weight: 300;
+        font-size: 1.1rem;
+        padding:5px 15px 5px 15px;
+        border-radius: 10px;
+        letter-spacing: .2em;
+        overflow:scroll;     
+        overflow-x: hidden;
+        }
+   .nav_container{
+            display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: absolute;
+        top:1%;
+        left:0%;
+        width:100%;
+        height:1em;
+        padding:2em;
+        border-color:black;
+                    }     
+    .nav2{  
+        font-size:1.4rem;}
+             
+    .footer_container  {
+        position:absolute;
+        display: flex;
+        bottom:-1%;
+        right:.60%;
+        width:99%;
+        height:7%;
+        }            
+     }
+              
+@media screen and (max-width:414px) and (min-width:1px)
+{
+    :root{
+        font-size:.5rem + 1vw;
+    } 
+    .selfportrait, .aper1, .legend_heading, .progress, .progress_heading, .fieldset{
+        display:none;
+     }  
+    .social_links_container, .maintitle, .form_title{
+        font-size: 0px;
+     }
+    .body{
+        background-size: 100vh;
+        height:100vh;
+        width:auto;
+        overflow:hidden;
+        }
+    .about_me{
+        width:150vw;
+        height:160vh;
+        background: linear-gradient(0deg, #111a1f, #2c414d);
+        color: whitesmoke;
+        position:absolute;
+        left:15%;
+        top:15%;
+        line-height: 33px;
+        font-weight: 300;
+        font-size: 1.1rem;
+        padding:5px 15px 5px 15px;
+        border-radius: 10px;
+        letter-spacing: .2em;
+        overflow:auto;     
+        overflow-x: hidden;
+        }
+    .nav_container{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        position: absolute;
+        top:1%;
+        left:0%;
+        width:180%;
+        height:1em;
+        padding:2em;
+        border-color:black;
+                    }     
+    .nav2{  
+        font-size:1.4rem;}
+             
+    .footer_container  {
+        position:absolute;
+        bottom:-82%;
+        left:-4%;
+        width:180%;
+        height:15%;
+    }
+}
+              
+
+            
+
