@@ -305,7 +305,6 @@ cursor:pointer;}
     .social_links_container, .maintitle, .form_title, .title_find_us{
              font-size: 0px;
          }
-   
     .selfportrait{  
         margin:0px;
         width:10%;
@@ -319,24 +318,23 @@ cursor:pointer;}
         border-color:#8acbee ;
         z-index: 1;
 }
-
     .about_me{
-        width:90%;
-        height:74%;
-        background: linear-gradient(0deg, #111a1f, #2c414d);
-        color: whitesmoke;
-        position:absolute;
-        left:4.5%;
-        top:10%;
-        line-height: 33px;
-        font-weight: 300;
-        font-size: 1.1rem;
-        padding:5px 15px 5px 15px;
-        border-radius: 10px;
-        letter-spacing: .2em;
-        overflow:scroll;     
-        overflow-x: hidden;
-    }
+            background: linear-gradient(0deg, #111a1f, #2c414d);
+            color: whitesmoke;
+            position:absolute;
+            top:10%;
+            left:2.5%;
+            height:83vh;
+            width: 95vw;
+            line-height: 33px;
+            font-weight: 300;
+            font-size: 1.1rem;
+            padding:5px 15px 5px 15px;
+            border-radius: 10px;
+            letter-spacing: .2em;
+            overflow:auto;     
+            overflow-x: hidden;
+            }  
     .nav_container{
         display:flex;
     justify-content: space-around;
@@ -374,7 +372,9 @@ cursor:pointer;}
     }
                     
 @media (max-width:650px) and (min-width:549px){
-  
+    :root{
+        font-size:.8em;
+    } 
     .aper1, .legend_heading, .progress, .progress_heading, .fieldset{
         display:none;
          }  
@@ -396,23 +396,23 @@ cursor:pointer;}
         z-index: 1;
 }
   
-    .about_me{
-        width:90%;
-        height:75%;
-        background: linear-gradient(0deg, #111a1f, #2c414d);
-        color: whitesmoke;
-        position:absolute;
-        left:4.5%;
-        top:16%;
-        line-height: 33px;
-        font-weight: 300;
-        font-size: 1.1rem;
-        padding:5px 15px 5px 15px;
-        border-radius: 10px;
-        letter-spacing: .2em;
-        overflow:scroll;     
-        overflow-x: hidden;
-        }
+.about_me{
+    background: linear-gradient(0deg, #111a1f, #2c414d);
+    color: whitesmoke;
+    position:absolute;
+    top:10%;
+    left:2.5%;
+    height:83vh;
+    width: 95vw;
+    line-height: 33px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding:5px 15px 5px 15px;
+    border-radius: 10px;
+    letter-spacing: .2em;
+    overflow:auto;     
+    overflow-x: hidden;
+    }  
    .nav_container{
             display:flex;
         justify-content: space-around;
@@ -472,9 +472,9 @@ cursor:pointer;}
         color: whitesmoke;
         position:absolute;
         top:10%;
-  left:2.5%;
-  height:83vh;
-  width: 95vw;
+        left:2.5%;
+        height:83vh;
+        width: 95vw;
         line-height: 33px;
         font-weight: 300;
         font-size: 1.1rem;
