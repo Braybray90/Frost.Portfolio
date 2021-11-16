@@ -251,7 +251,7 @@ left: 99999999px;
   align-content: center;
   top:10%;
   left:0%;
-  height:83vh;
+  height:80vh;
   width: 100vw;
   padding: 5px;
   border: 1px solid #000000;
@@ -260,7 +260,7 @@ left: 99999999px;
   border-radius: 10px;
   animation: none;
   overflow:scroll;
-  
+  overflow-x: hidden;
   }  
 .gallery__img{
   animation: none;
