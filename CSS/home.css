@@ -14,17 +14,17 @@ html
     min-width:100vh;
 }
 body {
-    
     animation: fade-in 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-   height:auto;
-    overflow:hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/landscape\ back\ ground\ image\ .jpg) ;
     background-color:rgb(15, 15, 15);
-    
 }    
-
+body, html{
+  min-width:100%;
+  min-height: 100%;
+  overflow: hidden;
+}
       @keyframes fade-in {
         0% {
           opacity: 0;
@@ -192,7 +192,7 @@ transform: scale(0.5);
             margin:2em 0px 2em 0px;
             padding:0px;
             position: absolute;
-            left:25%;
+            left:20%;
             top:10%;
         }
 
@@ -220,7 +220,7 @@ transform: scale(0.5);
           color: whitesmoke;
           text-decoration: none;
           letter-spacing: 1.9px;
-          padding:0em;
+          padding:0px;
            }
   
   .social_container  {
