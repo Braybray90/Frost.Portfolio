@@ -185,7 +185,7 @@ body, html{
                 font-size: 0px;
                 display:none;
                         }}
-@media (max-width:850px) and (min-width:549px){
+@media (max-width:850px) and (min-width:649px){
     :root{
         font-size:.8em}
 
@@ -231,7 +231,7 @@ body, html{
 
 }   
 
-@media (max-width:550px)  and (min-width:1px){  
+@media (max-width:650px)  and (min-width:1px){  
     :root{
     font-size:.8em
   }
@@ -265,6 +265,7 @@ left: 99999999px;
 .gallery__img{
   animation: none;
       }    
+    
       .nav_container{
         border: solid ;
         border-bottom: solid;
