@@ -195,24 +195,24 @@ transform: scale(0.5);
             left:20%;
             top:10%;
         }
-
         .nav_container{
           border: solid ;
           border-bottom: solid;
           border-color:black;
           border-width: 1px;
-          margin:0px 0px 0px .5%;
+          margin:0px;
           display:flex;
-          justify-content: space-around;
+          justify-content:space-around;
           flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
           float:left;
           position: absolute;
-          top:1%;
+          top:.90%;
           left:-0.5%;
           width:100vw;
-          height:1em;
-          padding:2em;
-          border-radius:10px;
+          height:8vh;
+          padding:5px 0px 0px 0px;
           background-color: #1d2b33;
                   }     
       .nav2{  
@@ -220,9 +220,9 @@ transform: scale(0.5);
           color: whitesmoke;
           text-decoration: none;
           letter-spacing: 1.9px;
-          padding:0px;
+          padding:0em .5em 0em .5em; 
+          margin:0px;
            }
-  
   .social_container  {
       display: flex;
       justify-content:space-around;
