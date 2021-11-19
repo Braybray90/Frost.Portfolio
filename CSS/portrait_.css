@@ -167,7 +167,7 @@ body, html{
         height:auto;
         padding:3px;
     }
-
+/*
 @media (max-width:1150px)and (min-width:951px){
         :root{
             font-size:1em
@@ -200,7 +200,6 @@ body, html{
         position: absolute;
         left:9%;
         top:7%;
-        
                      }
     .nav_container{
         border: solid ;
@@ -210,16 +209,16 @@ body, html{
         margin:0px 0px 0px .5%;
         display:flex;
         justify-content: space-around;
-                     flex-direction: row;
-                     float:left;
-                     position: absolute;
-                     top:0%;
-                     left:-0.5%;
-                     width:100vw;
-                     height:1em;
-                     padding:2em;
-                     border-radius:10px;
-                     background-color: #1d2b33;
+        flex-direction: row;
+        float:left;
+        position: absolute;
+        top:0%;
+        left:-0.5%;
+        width:100vw;
+        height:1em;
+        padding:2em;
+        border-radius:10px;
+        background-color: #1d2b33;
                     }     
     .nav2{  
         font-size:1.4rem;
@@ -230,8 +229,8 @@ body, html{
              }
 
 }   
-
-@media (max-width:650px)  and (min-width:1px){  
+*/
+@media (max-width:1000px)  and (min-width:1px){  
     :root{
     font-size:.8em
   }
