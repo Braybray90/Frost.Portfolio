@@ -168,12 +168,10 @@ body, html{
       height:auto;
       padding:3px;
   }
-
    .carousel_img{
     display: block;
-    
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width:55vw;
    }
 @media (max-width:1000px){
@@ -254,4 +252,6 @@ body, html{
          
       .social_container, .maintitle, .footer_logo{
         font-size: 0px;
-        } }
+        } 
+        
+      }
